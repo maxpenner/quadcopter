@@ -28,5 +28,5 @@ The PID controller consists of two stages. The 1st stage takes the actual angles
 
 ## Damages during build
 - 4 props
-- Once I accidentally started the quadcopter with props mounted in full throttle about one meter next to me. Fortunately nothing happened, it flew in the opposite direction and crashed.
+- Once I accidentally started the quadcopter with props mounted in full throttle about one meter next to me. Fortunately, nothing happened. It flew in the opposite direction and crashed.
 - At an early stage of the software, the quadcopter fell two times from a height of about 5 to 10 meters. I never found out why.
