@@ -5,8 +5,14 @@ If you want to use code from this repo, you use it at your own risk. I am not re
 
 Be patient. Be careful. Be a good engineer.
 
-## Does it fly?
-[YouTube Video] (https://www.youtube.com/watch?v=DGXSOvx3GmY)
+## MIQ: Does it fly?
+Yes, it does. Check this out: [YouTube Video] (https://www.youtube.com/watch?v=DGXSOvx3GmY)
+
+## How does it look like?
+[Pic0](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
+[Pic1](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
+[Pic2](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
+![](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
 
 ## Software
 The quadcopter uses a 1st order complementary filter for sensor fusion with body-to-earth-frame transformations. It measures roll, pitch, yaw, rotating rates, height, climbrate and accelerations. Also, the complementary filter does not use constant filter coefficients, but changes them during flight to trust the accelerometer or the gyroscope more.
