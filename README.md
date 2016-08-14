@@ -9,10 +9,10 @@ Be patient. Be careful. Be a good engineer.
 Yes, it does. Check this out: [YouTube Video] (https://www.youtube.com/watch?v=DGXSOvx3GmY)
 
 ## How does it look like?
-[Pic0](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
-[Pic1](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
-[Pic2](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
-![](https://cloud.githubusercontent.com/assets/20499620/17650908/5c0c613c-625a-11e6-8b4b-0ab6f16a4936.png)
+[Pic0](https://cloud.githubusercontent.com/assets/20499620/17651703/e24e91ae-626c-11e6-9fed-11d581fa1a50.jpg)
+[Pic1](https://cloud.githubusercontent.com/assets/20499620/17651707/ec92b8c0-626c-11e6-837b-2d71fa09c990.jpg)
+[Pic2](https://cloud.githubusercontent.com/assets/20499620/17651710/f2587f4c-626c-11e6-8e57-1e0f6f156db3.jpg)
+![eye_catcher](https://cloud.githubusercontent.com/assets/20499620/17651702/ddfb5e66-626c-11e6-9d9b-9204bb1c9ec1.jpg)
 
 ## Software
 The quadcopter uses a 1st order complementary filter for sensor fusion with body-to-earth-frame transformations. It measures roll, pitch, yaw, rotating rates, height, climbrate and accelerations. Also, the complementary filter does not use constant filter coefficients, but changes them during flight to trust the accelerometer or the gyroscope more.
