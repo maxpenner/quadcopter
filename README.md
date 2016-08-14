@@ -17,7 +17,7 @@ Yes, it does. Check this out: [YouTube Video] (https://www.youtube.com/watch?v=D
 ## Software
 The quadcopter uses a 1st order complementary filter for sensor fusion with body-to-earth-frame transformations. It measures roll, pitch, yaw, rotating rates, height, climbrate and accelerations. Also, the complementary filter does not use constant filter coefficients, but changes them during flight to trust the accelerometer or the gyroscope more.
 
-The PID controller consists of two stages. The 1st stage takes the actual angles from sensor fusion and the desired angle from the radio controller and determines a desired rotating rate. The second stage takes this desired totating rate and compares it to the acutal rate. The output is send to the motors. This two stage design is a very common.
+The PID controller consists of two stages. The 1st stage takes the actual angles from sensor fusion and the desired angle from the radio controller and determines a desired rotating rate. The second stage takes this desired rotating rate and compares it to the actual rate. The output is then send to the motors. This two stage design is a very common.
 
 ## Hardware
 - **Flightcontroller**: Arduino Due (SainSmart clone) + software presented here
