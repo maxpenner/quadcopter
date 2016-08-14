@@ -1,7 +1,7 @@
 # quadcopter
 This is my Arduino Due based quadcopter. The language is C++ with about 2500 lines of code.
 
-If you want to use code from this repo, you use it at your own risk. I am not responsible for any damage or injury resulting from anybody using this software. Building a quadcopter from scratch can become dangerous. The props turn very fast and sooner or later, you will make a mistake.
+If you want to use code from this repo, you use it at your own risk. I am not responsible for any damage or injury resulting from anybody using this software. Building a quadcopter from scratch can become dangerous. The props spin very fast and sooner or later, you will make a mistake.
 
 Be patient. Be careful. Be a good engineer.
 
