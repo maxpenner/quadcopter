@@ -220,7 +220,7 @@ void sensorFusion::writeData(Vector3f accel, Vector3f gyros, Vector3f magne, Vec
 	}
 	else
 	{
-		// if value is not valid push old value
+		// if value is not valid push old value -> this does not happen very often, so the effect should be negligible
 		Vector3f tmp_invalid;
 		baromData.getNthElem(tmp_invalid, 0);
 		baromData.pushNewElem(tmp_invalid);
@@ -313,7 +313,10 @@ float sensorFusion::getStartHeight()
 
 float sensorFusion::getTiltProportionalA()
 {	
+	// calculate the total tilt angle (pitch and roll)
 	float T_total = RAD2DEG*(acos(cos(RPY.x)*cos(RPY.y)));
+	
+	// limit the tilt angle
 	T_total = constrainn<float>(T_total, 0.0f, SFUS_COMPF_RP_LIM_TILT);
 	
 	return mapp<float>(T_total, 0.0f, SFUS_COMPF_RP_LIM_TILT, rollPitchA_minimum, rollPitchA_maximum);

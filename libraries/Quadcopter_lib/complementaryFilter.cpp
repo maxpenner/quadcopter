@@ -26,7 +26,7 @@ complementaryFilter::complementaryFilter()
 	// the loop time is fixed during runtime
 	dT = GLB_LOOP_TIME/1000000.0f;
 
-	// this setting means: trust the linear input, mistrust the derivative
+	// this setting means: trust the linear input, distrust the derivative
 	setTauViaA(1.0f);
 }
 
