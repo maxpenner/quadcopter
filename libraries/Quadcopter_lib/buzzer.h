@@ -25,6 +25,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BUZZER_PULSES_LENGTH_MIN		100		// ms
 #define BUZZER_PULSES_LENGTH_MAX		1000	// ms
 #define BUZZER_FINAL_PAUSE_LENGTH_MAX	5000	// ms
+#define BUZZER_BLOCKING					true
+#define BUZZER_NON_BLOCKING				false
 
 class buzzer
 {

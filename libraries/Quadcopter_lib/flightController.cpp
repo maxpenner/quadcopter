@@ -60,8 +60,8 @@ void flightController::initTimeCritical()
 
 void flightController::playStartUpSound()
 {
-	_buzzer.startMelody(2, 100, 0, true);
-	_buzzer.startMelody(1, 500, 0, true);
+	_buzzer.startMelody(2, 100, 0, BUZZER_BLOCKING);
+	_buzzer.startMelody(1, 500, 0, BUZZER_BLOCKING);
 }
 
 void flightController::startReceiverProcess()
@@ -76,7 +76,7 @@ void flightController::startReceiverProcess()
 	while(!receiverModule::allChannelsInLimits())
 	{
 		DBG_println("\tReceiver pulse lengths are not within limits, check transmitter and receiver!");
-		_buzzer.startMelody(1, 100, 1000, true);
+		_buzzer.startMelody(1, 100, 1000, BUZZER_BLOCKING);
 	}
 	
 	tmpDbg.close("250 ms startup.");
@@ -101,7 +101,7 @@ void flightController::checkESCCalibration()
 	// if yes, start calibration process
 	if(tmp == true)
 	{
-		_buzzer.startMelody(1, 1000, 0, true);
+		_buzzer.startMelody(1, 1000, 0, BUZZER_BLOCKING);
 		DBG_println("\tThrottle passed through to motors.");
 		_motors.release();
 		do
@@ -174,7 +174,7 @@ void flightController::checkSensorTiltCalibration()
 	// if yes, start calibration process
 	if(tmp == true)
 	{
-		_buzzer.startMelody(2, 1000, 0, true);
+		_buzzer.startMelody(2, 1000, 0, BUZZER_BLOCKING);
 		DBG_println("\tCalibrating sensor tilt.");
 		scheduler tmp;
 		tmp.schedulerSetup();
@@ -250,7 +250,7 @@ void flightController::checkReceiverDefaultPosition()
 		if(tmp == true)
 			break;
 		else
-			_buzzer.startMelody(2, 100, 1000, true);
+			_buzzer.startMelody(2, 100, 1000, BUZZER_BLOCKING);
 	}
 	
 	tmpDbg.close(0);
@@ -283,8 +283,8 @@ void flightController::estimateInitialAttitude()
 
 void flightController::playStartUpFinishedSound()
 {
-	_buzzer.startMelody(2, 100, 0, true);
-	_buzzer.startMelody(2, 500, 0, true);
+	_buzzer.startMelody(2, 100, 0, BUZZER_BLOCKING);
+	_buzzer.startMelody(2, 500, 0, BUZZER_BLOCKING);
 }
 
 void flightController::readSensors()
@@ -416,6 +416,6 @@ void flightController::determineLoopControlSound()
 	// quadcopter is on the ground and armed, but rotors aren't spinning
 	if((_armingFSM.getArmingState() == true) && (releaseStabilizerOnMotors == false))
 	{
-		_buzzer.startMelody(1, 200, 1000, false);
+		_buzzer.startMelody(1, 200, 1000, BUZZER_NON_BLOCKING);
 	}
 }
