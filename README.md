@@ -8,7 +8,7 @@ Be patient. Be careful. Be a good engineer.
 ## MIQ: Does it fly?
 Yes, it does. Check this out: [YouTube Video](https://www.youtube.com/watch?v=WZlPoww-kpc)
 
-## How does it look like?
+## What does it look like?
 [Pic0](https://cloud.githubusercontent.com/assets/20499620/17651703/e24e91ae-626c-11e6-9fed-11d581fa1a50.jpg)
 [Pic1](https://cloud.githubusercontent.com/assets/20499620/17651707/ec92b8c0-626c-11e6-837b-2d71fa09c990.jpg)
 [Pic2](https://cloud.githubusercontent.com/assets/20499620/17651710/f2587f4c-626c-11e6-8e57-1e0f6f156db3.jpg)
