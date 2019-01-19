@@ -6,7 +6,7 @@ If you want to use code from this repo, you use it at your own risk. I am not re
 Be patient. Be careful. Be a good engineer.
 
 ## MIQ: Does it fly?
-Yes, it does. Check this out: [YouTube Video](https://www.youtube.com/watch?v=WZlPoww-kpc)
+Yes, it does. [YouTube Video](https://www.youtube.com/watch?v=WZlPoww-kpc)
 
 ## What does it look like?
 [Pic0](https://cloud.githubusercontent.com/assets/20499620/17651703/e24e91ae-626c-11e6-9fed-11d581fa1a50.jpg)
@@ -34,5 +34,5 @@ The PID controller consists of two stages. The 1st stage takes the actual angles
 
 ## Damages during build
 - 4 props
-- Once I accidentally started the quadcopter with props mounted in full throttle about one meter next to me. Fortunately, nothing happened. It flew in the opposite direction and crashed.
-- At an early stage of the software, the quadcopter fell two times from a height of about 5 to 10 meters. I never found out why.
+- At an early stage of development, I accidentally started the quadcopter with props mounted in full throttle about one meter next to me. Fortunately, nothing happened. It flew in the opposite direction and crashed.
+- The quadcopter fell two times from a height of about 5 to 10 meters. Since this an error I didn't want to reproduce, I never found out why it crashed.
