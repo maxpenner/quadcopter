@@ -28,7 +28,7 @@ The PID controller consists of two stages. The 1st stage takes the actual angles
 - **Frame**: Q450 V3
 - **PDB**: integrated in frame
 - **ESCs**: HobbyKing 20A BlueSeries Brushless Speed Controller (flashed with SimonK)
-- **ESC flash tool**: [Atmel Atmega Socket Firmware Flashing Tool](http://www.hobbyking.com/hobbyking/store/__27195__Atmel_Atmega_Socket_Firmware_Flashing_Tool.html)
+- **ESC flash tool**: [Atmel Atmega Socket Firmware Flashing Tool](https://hobbyking.com/de_de/atmel-atmega-socket-firmware-flashing-tool.html)
 - **Battery**: ZIPPY Compact 4000mAh 3S 25C Lipo Pack
 - **Battery charger**: IMax B6AC V2
 
